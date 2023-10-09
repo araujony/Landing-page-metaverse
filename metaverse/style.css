@@ -46,6 +46,7 @@ nav a {
 nav a:hover {
     transition: .4s all;
     color: rgb(185, 41, 41);
+    border-bottom: .5px solid rgb(185, 41, 41);
 }
 main {
     width: 100vw;
@@ -85,9 +86,13 @@ main {
     font-weight: 600;
     background-color: white;
 }
+.cta .inputs a.btn {
+    color: white;
+    background: linear-gradient(to bottom, rgb(235, 192, 2)5%, rgb(243, 30, 2)70%);
+}
 .cta .inputs a:hover {
-    transition: .8s all;
-    opacity: 0.8;
+    transition: .4s all;
+    opacity: 0.5;
 }
 .slider {
     width: 40%;
