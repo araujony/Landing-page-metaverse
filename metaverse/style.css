@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #000000;
+
+    background-image: url(img/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+header {
+    width: 100vw; 
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 4rem;
+}
+.logo img {
+    width: 30%;
+}
+nav {
+    width: 70%;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding-left: 5rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+nav a {
+    color: #ffff;
+    text-decoration: none;
+}
+nav a:hover {
+    transition: .4s all;
+    color: rgb(185, 41, 41);
+}
+main {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+}
+.cta {
+    width: 50%;
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+     
+    
+}
+.cta h1 {
+    font-size: 4rem;
+    padding: 0 4rem;
+
+}
+.cta p {
+    padding-left: 4rem;
+    padding-right: 12rem;
+    line-height: 2rem;
+}
+.cta .inputs {
+    padding-left: 4rem;
+}
+.cta .inputs a {
+    color: #ed7b0a;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    
+    border-radius: 5rem;
+    font-weight: 600;
+    background-color: white;
+}
+.cta .inputs a:hover {
+    transition: .8s all;
+    opacity: 0.8;
+}
+.slider {
+    width: 40%;
+}
+
+.slider img {
+    width: 520px;
+    height: 520px;
+}
+.legend {
+    width: 420px;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+
+    background-color: #fff;
+    padding: 2rem 4rem;
+    padding: 1.5rem 4rem;
+    position: relative;
+    font-weight: 800;
+    opacity: 0.8;
+    font-size: .8rem;
+    z-index: 9;
+    margin: -97px 0 0 60px;
+
+}
+.social-media  { 
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    align-items: center;
+    padding-bottom: 10rem;
+}
+.social-media div {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    margin-top: .2rem;
+}
+.social-media div {
+    width: 30px;
+    height: 30px;
+}
+.social-media div img {
+    width: 30px;
+    height: 30px;
+}
+.social-media p {
+    position: absolute;
+    font-weight: 700;
+    
+    color: #fff;
+    transform: rotate(90deg) translatex(-90%);
+}
